@@ -11,8 +11,9 @@ return array(
 	'DB_TYPE' => 'mysql',
 	'DB_HOST' => '127.0.0.1',
 	'DB_NAME' => 'notes',
-	'DB_USER' => 'root',
-	'DB_PASS' => '1234',
+	'DB_USER' => 'note',
+	'DB_PASS' => 'MVC1',
 	'DB_PORT' => '3306',
 	'DB_CHARSET' => 'utf8',
 );
+
