@@ -6,3 +6,5 @@ create table notes (
 	note_id int(9) not null primary key auto_increment,
 	note_text varchar(24) not null
 ) engine=innodb;
+grant select,insert,update,delete on notes.* to note@localhost identified by 'MVC1';
+
